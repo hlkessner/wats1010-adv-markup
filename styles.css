@@ -1,1 +1,81 @@
 /* Styles for the Advanced Markup assignment. */
+body {
+  font-family: sans-serif;
+  line-height:27px;
+  padding-top:25px; padding-left: 50px; padding-right: 50px; padding-bottom; 25px;
+  background-color: rgba(153, 133, 0, 0.27);
+}
+
+
+/*formatting for the aside*/
+#sidebar {
+  width: 400px;
+  float: right;
+  background-color: rgba(0, 40, 61, 0.45);
+  margin-top: 28px;margin-right:0; margin-left: 10px;
+  padding: 15px;
+  font-family:sans-serif;
+  line-height:25px;
+  
+}
+
+/*formating for the table*/
+table {
+  width: 100%;
+}
+th, td {
+  padding: 4px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+/*bio photo*/
+.bio-photo {
+  float:left;
+  padding: 15px;
+  padding-left: 0;
+  padding-bottom: 1px;
+  margin-top: 0;
+  
+}
+.poem {
+  list-style:none;
+  
+}
+/*navigation bar*/
+
+nav ul, aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li, aside li {
+    float: left;
+}
+
+nav li a, aside li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+nav ul li, aside ul li {
+  display: inline;
+}
+nav a.active {
+  font-weight: bold;
+}
+
+/* end navigation bar*/
+dt {
+  font-weight:bold;
+}
+
